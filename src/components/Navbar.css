@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   transition: right 0.3s;
+  z-index: 999;
 }
 
 .nav-bar.toggle {
@@ -34,6 +35,7 @@
   gap: 9px;
   padding: 2px 2px 2px 3px;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .line {
