@@ -1,62 +1,86 @@
 .about-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #e74c3c;
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.about-text {
+  color: #333;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.goal-list,
+.team-list {
+  list-style-type: none;
+  padding: 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.goal-list li,
+.team-list li {
+  padding: 6px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.goal-list li::before,
+.team-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-size: 1.3rem;
+  color: #2980b9;
+}
+
+/* Mobile Styles */
+@media (max-width: 900px) {
+  .about-container {
+    width: 95%;
+    padding: 10px;
   }
-  
-  .about-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
+
   .about-title {
-    font-size: 3.5rem;
-    color: #2c3e50;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-  }
-  
-  .section-title {
     font-size: 2rem;
-    color: #e74c3c;
-    border-bottom: 2px solid #e74c3c;
-    padding-bottom: 5px;
-    margin-top: 30px;
   }
-  
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
   .about-text {
-    color: #333;
-    line-height: 1.6;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+    font-size: 0.95rem;
   }
-  
+
   .goal-list,
   .team-list {
-    list-style-type: none;
-    padding: 0;
-    color: #555;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
-  
-  .goal-list li,
-  .team-list li {
-    padding: 8px 0;
-    position: relative;
-    padding-left: 25px;
-  }
-  
-  .goal-list li::before,
-  .team-list li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    font-size: 1.5rem;
-    color: #2980b9;
-  }
-  
+}
