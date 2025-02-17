@@ -1,0 +1,95 @@
+{
+    "female_results": [
+      {
+        "number": 5956,
+        "name": "TEMNOVA, Anastasiia",
+        "category": "F25-29",
+        "team": "Trunnergang",
+        "time": "34:54",
+        "chip_time": "34:54",
+        "pace": "4:59 min/km"
+      },
+      {
+        "number": 5826,
+        "name": "OPIKAN, Irina",
+        "category": "F35-39",
+        "team": "Tbilisi Running Club",
+        "time": "40:56",
+        "chip_time": "40:58",
+        "pace": "5:50 min/km"
+      },
+      {
+        "number": 5851,
+        "name": "TERENTEVA, Ekaterina",
+        "category": "F30-34",
+        "team": "Lake Run",
+        "time": "43:20",
+        "chip_time": "43:20",
+        "pace": "6:11 min/km"
+      },
+      {
+        "number": 5803,
+        "name": "MEDVEDEVA, Anastasiia",
+        "category": "F25-29",
+        "team": "",
+        "time": "46:25",
+        "chip_time": "46:35",
+        "pace": "6:37 min/km"
+      },
+      {
+        "number": 5897,
+        "name": "ODYNTSOVA, Oleksandra",
+        "category": "F35-39",
+        "team": "Race For Ukraine",
+        "time": "46:43",
+        "chip_time": "46:45",
+        "pace": "6:40 min/km"
+      },
+      {
+        "number": 5971,
+        "name": "MALAKHOVA, Polina",
+        "category": "F40-44",
+        "team": "",
+        "time": "46:46",
+        "chip_time": "47:05",
+        "pace": "6:40 min/km"
+      },
+      {
+        "number": 5921,
+        "name": "IURINA, Svetlana",
+        "category": "F30-34",
+        "team": "",
+        "time": "46:49",
+        "chip_time": "47:19",
+        "pace": "6:41 min/km"
+      },
+      {
+        "number": 5536,
+        "name": "ZELINA, Anastasiia",
+        "category": "F25-29",
+        "team": "",
+        "time": "47:11",
+        "chip_time": "47:16",
+        "pace": "6:44 min/km"
+      },
+      {
+        "number": 4994,
+        "name": "FEDOROVA, Daria",
+        "category": "F30-34",
+        "team": "",
+        "time": "47:19",
+        "chip_time": "47:22",
+        "pace": "6:45 min/km"
+      },
+      {
+        "number": 5883,
+        "name": "NOLEN, Stacey",
+        "category": "F30-34",
+        "team": "Tbilisi Running Club",
+        "time": "47:24",
+        "chip_time": "47:29",
+        "pace": "6:46 min/km"
+      }
+    ]
+  }
+  
