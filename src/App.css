@@ -7,3 +7,14 @@
   padding-top: 50px;
   color: white;
 }
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-top: 60px; /* Height of the navbar */
+}

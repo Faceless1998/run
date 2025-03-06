@@ -1,0 +1,158 @@
+{
+  "races": [
+    {
+      "id": 1,
+      "name": "Spring Marathon 2024",
+      "date": "2024-04-15",
+      "location": "Central Park",
+      "distance": "42.2km",
+      "price": 75,
+      "description": "Annual spring marathon through the scenic Central Park",
+      "registrationDeadline": "2024-03-15"
+    },
+    {
+      "id": 2,
+      "name": "Summer 10K",
+      "date": "2024-07-20",
+      "location": "Riverside Park",
+      "distance": "10km",
+      "price": 45,
+      "description": "Fast and flat 10K race along the river",
+      "registrationDeadline": "2024-06-20"
+    },
+    {
+      "id": 3,
+      "name": "Autumn Half Marathon",
+      "date": "2024-10-05",
+      "location": "Prospect Park",
+      "distance": "21.1km",
+      "price": 60,
+      "description": "Beautiful fall colors during this half marathon",
+      "registrationDeadline": "2024-09-05"
+    }
+  ],
+  "male_results": [
+    {
+      "number": 1,
+      "name": "David Johnson",
+      "category": "Elite",
+      "team": "Speed Runners",
+      "time": "02:15:30",
+      "chip_time": "02:15:25",
+      "pace": "5:08",
+      "race": "spring"
+    },
+    {
+      "number": 2,
+      "name": "Michael Chen",
+      "category": "Elite",
+      "team": "Marathon Masters",
+      "time": "02:16:45",
+      "chip_time": "02:16:40",
+      "pace": "5:12",
+      "race": "spring"
+    },
+    {
+      "number": 3,
+      "name": "James Wilson",
+      "category": "Elite",
+      "team": "Speed Runners",
+      "time": "02:17:20",
+      "chip_time": "02:17:15",
+      "pace": "5:14",
+      "race": "spring"
+    },
+    {
+      "number": 1,
+      "name": "Robert Smith",
+      "category": "Open",
+      "team": "Running Club",
+      "time": "00:35:20",
+      "chip_time": "00:35:15",
+      "pace": "5:40",
+      "race": "summer"
+    },
+    {
+      "number": 2,
+      "name": "Thomas Brown",
+      "category": "Open",
+      "team": "Speed Runners",
+      "time": "00:36:05",
+      "chip_time": "00:36:00",
+      "pace": "5:48",
+      "race": "summer"
+    },
+    {
+      "number": 3,
+      "name": "William Davis",
+      "category": "Open",
+      "team": "Marathon Masters",
+      "time": "00:36:45",
+      "chip_time": "00:36:40",
+      "pace": "5:54",
+      "race": "summer"
+    }
+  ],
+  "female_results": [
+    {
+      "number": 1,
+      "name": "Sarah Anderson",
+      "category": "Elite",
+      "team": "Speed Runners",
+      "time": "02:28:15",
+      "chip_time": "02:28:10",
+      "pace": "5:39",
+      "race": "spring"
+    },
+    {
+      "number": 2,
+      "name": "Emma Wilson",
+      "category": "Elite",
+      "team": "Marathon Masters",
+      "time": "02:29:30",
+      "chip_time": "02:29:25",
+      "pace": "5:42",
+      "race": "spring"
+    },
+    {
+      "number": 3,
+      "name": "Lisa Chen",
+      "category": "Elite",
+      "team": "Speed Runners",
+      "time": "02:30:45",
+      "chip_time": "02:30:40",
+      "pace": "5:45",
+      "race": "spring"
+    },
+    {
+      "number": 1,
+      "name": "Jennifer Brown",
+      "category": "Open",
+      "team": "Running Club",
+      "time": "00:38:20",
+      "chip_time": "00:38:15",
+      "pace": "6:10",
+      "race": "summer"
+    },
+    {
+      "number": 2,
+      "name": "Maria Garcia",
+      "category": "Open",
+      "team": "Speed Runners",
+      "time": "00:39:05",
+      "chip_time": "00:39:00",
+      "pace": "6:18",
+      "race": "summer"
+    },
+    {
+      "number": 3,
+      "name": "Sophie Davis",
+      "category": "Open",
+      "team": "Marathon Masters",
+      "time": "00:39:45",
+      "chip_time": "00:39:40",
+      "pace": "6:24",
+      "race": "summer"
+    }
+  ]
+} 

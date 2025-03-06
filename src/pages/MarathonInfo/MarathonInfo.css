@@ -1,0 +1,404 @@
+.marathon-info-container {
+  min-height: calc(100vh - 64px);
+  background-color: var(--background-color);
+  padding-bottom: 2rem;
+}
+
+.marathon-info-container .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.marathon-hero {
+  position: relative;
+  height: 400px;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.marathon-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.marathon-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+.marathon-hero-content {
+  color: white;
+  max-width: 800px;
+}
+
+.marathon-hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.marathon-hero-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.marathon-hero-details span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.marathon-content {
+  display: grid;
+  gap: 2rem;
+}
+
+.marathon-section {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.marathon-section h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(37, 99, 235, 0.1);
+}
+
+.course-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.course-details {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.course-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 0.5rem;
+}
+
+.course-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.course-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.course-item p {
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.course-highlights {
+  padding: 1rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 0.5rem;
+}
+
+.course-highlights h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.course-highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-highlights li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.course-highlights li::before {
+  content: "•";
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.schedule-timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.schedule-item:hover {
+  transform: translateX(5px);
+}
+
+.schedule-time {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.schedule-activity {
+  color: var(--text-color);
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.amenity-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.amenity-card:hover {
+  transform: translateY(-5px);
+}
+
+.amenity-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.amenity-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.amenity-card p {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.registration-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.registration-details {
+  padding: 1.5rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 0.5rem;
+}
+
+.registration-details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.registration-prices {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 0.25rem;
+}
+
+.registration-includes {
+  padding: 1.5rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 0.5rem;
+}
+
+.registration-includes h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.registration-includes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.registration-includes li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.registration-includes li::before {
+  content: "✓";
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.prizes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.prize-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.prize-card:hover {
+  transform: translateY(-5px);
+}
+
+.prize-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.prize-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.prize-card p {
+  color: #6b7280;
+}
+
+@media (max-width: 1024px) {
+  .marathon-hero {
+    height: 350px;
+  }
+
+  .marathon-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .course-info,
+  .registration-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .marathon-hero {
+    height: 300px;
+  }
+
+  .marathon-hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .marathon-hero-details {
+    font-size: 1rem;
+  }
+
+  .marathon-section {
+    padding: 1.5rem;
+  }
+
+  .schedule-item {
+    grid-template-columns: 120px 1fr;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .marathon-hero {
+    height: 250px;
+  }
+
+  .marathon-hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .marathon-hero-details {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .marathon-section {
+    padding: 1rem;
+  }
+
+  .amenities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-item {
+    grid-template-columns: 100px 1fr;
+    font-size: 0.9rem;
+  }
+}
+
+@media print {
+  .marathon-hero {
+    height: 200px;
+  }
+
+  .marathon-section {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #e5e7eb;
+  }
+
+  .amenity-card,
+  .prize-card,
+  .schedule-item,
+  .registration-details,
+  .registration-includes {
+    break-inside: avoid;
+    border: 1px solid #e5e7eb;
+  }
+} 

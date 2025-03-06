@@ -1,0 +1,83 @@
+.about-container {
+  min-height: calc(100vh - 64px);
+  background-color: var(--background-color);
+}
+
+.about-container .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1rem;
+}
+
+.about-text {
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.goal-list,
+.team-list {
+  list-style-type: none;
+  padding: 0;
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+.goal-list li,
+.team-list li {
+  padding: 0.75rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.goal-list li::before,
+.team-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.about-mission,
+.about-description,
+.about-goals,
+.about-team {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .about-container .container {
+    padding: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .about-text,
+  .goal-list,
+  .team-list {
+    font-size: 1rem;
+  }
+
+  .about-mission,
+  .about-description,
+  .about-goals,
+  .about-team {
+    padding: 1.5rem;
+  }
+} 
