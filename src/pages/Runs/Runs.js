@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import PageHeader from '../shared/PageHeader';
 import './Runs.css';
 import { useLanguage } from '../../context/LanguageContext';
+import IMG from "./../../assets/1200 X 600.png"
 
 const Runs = () => {
     const { t } = useLanguage();
@@ -28,38 +29,38 @@ const Runs = () => {
   ];
 
   const races = [
-    {
-      id: 1,
-      title: t('batumiSpringMarathon'),
-      category: 'marathon',
-      location: 'batumi',
-      date: t('april15'),
-      time: t('eightAM'),
-      distance: t('fortyTwoKm'),
-      price: t('seventyFiveGel'),
-      participants: 500,
-      prize: t('hundredGel'),
-      image: 'https://placeholder.pics/svg/800x400/FFE4E1/FF69B4?text=Spring+Marathon',
-      description: t('batumiSpringMarathonDesc'),
-      features: [
-        t('medalForFinishers'),
-        t('timingChip'),
-        t('refreshmentStations'),
-        t('medicalSupport')
-      ]
-    },
+    // {
+    //   id: 1,
+    //   title: t('batumiSpringMarathon'),
+    //   category: 'marathon',
+    //   location: 'batumi',
+    //   date: t('april15'),
+    //   time: t('eightAM'),
+    //   distance: t('fortyTwoKm'),
+    //   price: t('seventyFiveGel'),
+    //   participants: 500,
+    //   prize: t('hundredGel'),
+    //   image: 'https://placeholder.pics/svg/800x400/FFE4E1/FF69B4?text=Spring+Marathon',
+    //   description: t('batumiSpringMarathonDesc'),
+    //   features: [
+    //     t('medalForFinishers'),
+    //     t('timingChip'),
+    //     t('refreshmentStations'),
+    //     t('medicalSupport')
+    //   ]
+    // },
     {
       id: 2,
       title: t('tbilisiHalfMarathon'),
-      category: 'half-marathon',
-      location: 'tbilisi',
+      category: 'kids',
+      location: 'Batumi',
       date: t('may20'),
-      time: t('nineAM'),
+      time: t('tenAM'),
       distance: t('twentyOneKm'),
       price: t('sixtyGel'),
-      participants: 300,
+      participants: "∞",
       prize: t('sevenFiftyGel'),
-      image: 'https://placeholder.pics/svg/800x400/E6F3FF/2563EB?text=Half+Marathon',
+      image: IMG,
       description: t('tbilisiHalfMarathonDesc'),
       features: [
         t('finisherMedal'),
@@ -68,46 +69,46 @@ const Runs = () => {
         t('professionalTiming')
       ]
     },
-    {
-      id: 3,
-      title: t('kutaisiTenK'),
-      category: '10k',
-      location: 'kutaisi',
-      date: t('june10'),
-      time: t('tenAM'),
-      distance: t('tenKm'),
-      price: t('fortyFiveGel'),
-      participants: 200,
-      prize: t('fiveHundredGel'),
-      image: 'https://placeholder.pics/svg/800x400/F0FFF0/10B981?text=10K+Challenge',
-      description: t('kutaisiTenKDesc'),
-      features: [
-        t('participationMedal'),
-        t('waterStations'),
-        t('firstAidSupport'),
-        t('electronicTiming')
-      ]
-    },
-    {
-      id: 4,
-      title: t('batumiFiveK'),
-      category: '5k',
-      location: 'batumi',
-      date: t('july5'),
-      time: t('elevenAM'),
-      distance: t('fiveKm'),
-      price: t('thirtyGel'),
-      participants: 150,
-      prize: t('twoFiftyGel'),
-      image: 'https://placeholder.pics/svg/800x400/FFF3E0/FF9800?text=5K+Fun+Run',
-      description: t('batumiFiveKDesc'),
-      features: [
-        t('kidsMedal'),
-        t('familyDiscounts'),
-        t('waterStations'),
-        t('safetyMarshals')
-      ]
-    }
+    // {
+    //   id: 3,
+    //   title: t('kutaisiTenK'),
+    //   category: '10k',
+    //   location: 'kutaisi',
+    //   date: t('june10'),
+    //   time: t('tenAM'),
+    //   distance: t('tenKm'),
+    //   price: t('fortyFiveGel'),
+    //   participants: 200,
+    //   prize: t('fiveHundredGel'),
+    //   image: 'https://placeholder.pics/svg/800x400/F0FFF0/10B981?text=10K+Challenge',
+    //   description: t('kutaisiTenKDesc'),
+    //   features: [
+    //     t('participationMedal'),
+    //     t('waterStations'),
+    //     t('firstAidSupport'),
+    //     t('electronicTiming')
+    //   ]
+    // },
+    // {
+    //   id: 4,
+    //   title: t('batumiFiveK'),
+    //   category: '5k',
+    //   location: 'batumi',
+    //   date: t('july5'),
+    //   time: t('elevenAM'),
+    //   distance: t('fiveKm'),
+    //   price: t('thirtyGel'),
+    //   participants: 150,
+    //   prize: t('twoFiftyGel'),
+    //   image: 'https://placeholder.pics/svg/800x400/FFF3E0/FF9800?text=5K+Fun+Run',
+    //   description: t('batumiFiveKDesc'),
+    //   features: [
+    //     t('kidsMedal'),
+    //     t('familyDiscounts'),
+    //     t('waterStations'),
+    //     t('safetyMarshals')
+    //   ]
+    // }
   ];
 
   const filteredRaces = races.filter(race => {

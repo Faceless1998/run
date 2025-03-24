@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Run Georgia Logo" />
-          <p>Botanical Garden run</p>
+          {/* <p>Botanical Garden run</p> */}
         </Link>
 
         <div className={`burger-menu ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>

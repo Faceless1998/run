@@ -3,50 +3,52 @@ import { useParams } from 'react-router-dom';
 import { FaMapMarkerAlt, FaCalendarAlt, FaClock, FaUsers, FaTrophy, FaMoneyBillWave, FaRoute, FaMedal, FaTshirt, FaWater, FaFirstAid, FaParking, FaBus } from 'react-icons/fa';
 import PageHeader from '../shared/PageHeader';
 import './MarathonInfo.css';
-
+import { useLanguage } from '../../context/LanguageContext';
+import IMG from "./../../assets/1200 X 600.png"
 const MarathonInfo = () => {
   const { id } = useParams();
+    const { t } = useLanguage();
 
   // This would typically come from an API or database
   const marathonInfo = {
     id: parseInt(id),
-    title: 'Batumi Spring Marathon 2024',
-    date: 'April 15, 2024',
-    time: '08:00 AM',
+    title: t('tbilisiHalfMarathon'),
+    date: t('may20'),
+    time: t('tenAM'),
     location: 'Batumi, Georgia',
     distance: '42.2 km',
     price: '75₾',
     participants: 500,
     prize: '1000₾',
-    image: 'https://placeholder.pics/svg/1200x400/FFE4E1/FF69B4?text=Spring+Marathon',
-    description: 'Experience the beauty of Batumi in this spring marathon. The course takes you along the stunning Black Sea coastline, through historic streets, and past iconic landmarks.',
+    image:IMG,
+    description: t('tbilisiHalfMarathonDescfull'),
     course: {
-      start: 'Batumi Boulevard',
-      finish: 'Batumi Stadium',
-      elevation: 'Flat to moderate',
-      surface: 'Paved roads and paths',
+      start: t('boulvard'),
+      finish: t('boulvard'),
+      // elevation: 'Flat to moderate',
+      // surface: 'Paved roads and paths',
       highlights: [
-        'Black Sea coastline views',
-        'Historic city center',
-        'Botanical Garden section',
-        'Modern architecture district'
+        t('boulvard1'),
+        t('boulvard2'),
+        t('boulvard3'),
+        t('boulvard4'),
       ]
     },
     schedule: [
-      { time: '06:00 AM', activity: 'Registration opens' },
-      { time: '07:00 AM', activity: 'Bag drop opens' },
-      { time: '07:30 AM', activity: 'Warm-up session' },
-      { time: '08:00 AM', activity: 'Race starts' },
-      { time: '11:00 AM', activity: 'Award ceremony' },
-      { time: '12:00 PM', activity: 'Post-race celebration' }
+      // { time: '06:00 AM', activity: 'Registration opens' },
+      // { time: '07:00 AM', activity: 'Bag drop opens' },
+      // { time: '07:30 AM', activity: 'Warm-up session' },
+      { time: '09:00 AM', activity: 'Registration opens' },
+      { time: '11:00 AM', activity: 'Race Starts' },
+      // { time: '12:00 PM', activity: 'Post-race celebration' }
     ],
     amenities: [
       { icon: FaMedal, title: 'Finisher Medal', description: 'Custom-designed medal for all finishers' },
       { icon: FaTshirt, title: 'Technical T-shirt', description: 'High-quality performance shirt' },
-      { icon: FaWater, title: 'Water Stations', description: 'Every 5km with sports drinks' },
-      { icon: FaFirstAid, title: 'Medical Support', description: 'Full medical team on course' },
-      { icon: FaParking, title: 'Free Parking', description: 'Designated parking areas' },
-      { icon: FaBus, title: 'Shuttle Service', description: 'To and from key locations' }
+      // { icon: FaWater, title: 'Water Stations', description: 'Every 5km with sports drinks' },
+      // { icon: FaFirstAid, title: 'Medical Support', description: 'Full medical team on course' },
+      // { icon: FaParking, title: 'Free Parking', description: 'Designated parking areas' },
+      // { icon: FaBus, title: 'Shuttle Service', description: 'To and from key locations' }
     ],
     registration: {
       deadline: 'April 1, 2024',
@@ -57,13 +59,13 @@ const MarathonInfo = () => {
       },
       includes: [
         'Race entry',
-        'Technical t-shirt',
+        // 'Technical t-shirt',
         'Finisher medal',
         'Timing chip',
         'Race bib',
         'Post-race refreshments'
       ]
-    },
+    },  
     prizes: [
       { position: '1st Place', prize: '1000₾ + Medal' },
       { position: '2nd Place', prize: '750₾ + Medal' },
