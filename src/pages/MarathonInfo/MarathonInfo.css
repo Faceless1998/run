@@ -30,7 +30,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.7)
+  );
   display: flex;
   align-items: flex-end;
   padding: 2rem;
@@ -44,7 +48,7 @@
 .marathon-hero-content h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .marathon-hero-details {
@@ -58,7 +62,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .marathon-content {
@@ -179,6 +183,26 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
+}
+
+.amenity-card-image {
+  width: 200px;
+  height: 200px;
+}
+
+.amenities-grid-image {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.amenity-card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
 }
 
 .amenity-card {
@@ -401,4 +425,4 @@
     break-inside: avoid;
     border: 1px solid #e5e7eb;
   }
-} 
+}

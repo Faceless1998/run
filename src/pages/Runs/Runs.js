@@ -58,15 +58,16 @@ const Runs = () => {
       time: t('tenAM'),
       distance: t('twentyOneKm'),
       price: t('sixtyGel'),
-      participants: "∞",
+      participants: "200",
       prize: t('sevenFiftyGel'),
       image: IMG,
       description: t('tbilisiHalfMarathonDesc'),
       features: [
         t('finisherMedal'),
-        t('technicalTshirt'),
-        t('postRaceRefreshments'),
-        t('professionalTiming')
+        t('hydration'),
+        t('prizes'),
+        t('scenicroute'),
+        t('postRace'),
       ]
     },
     // {
