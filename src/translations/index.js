@@ -133,10 +133,15 @@ export const translations = {
     pace: 'Pace',
     season: 'Season',
     totalParticipants: 'participants',
-    boulvard1:'Black Sea coastline views',
-    boulvard2:'Historic city center',
-    boulvard3:'Botanical Garden section',
-    boulvard4:'Modern architecture district',
+    boulvard1:'The Botanical Garden Race follows FISO classification, ensuring a fair and exciting competition for all young runners!',
+    boulvard2:'🔹 OPEN CATEGORY (No podium, just for fun!)',
+    boulvard3:'👶 KIDS: 2-3 years, 4-5 years',
+    boulvard4:'🔹 AGE CATEGORY (Competitive with podium results)',
+    boulvard5:'👦 KIDS: 6-7 years, 8-9 years',
+    boulvard6:'🧑 YOUTH: 10-11 years, 12-13 years, 14-15 years',
+
+
+
     // Merch Page
     raceMerchandise: 'Race Merchandise',
     highQualityGear: 'High-quality running gear and accessories',
@@ -151,6 +156,8 @@ export const translations = {
     quantity: 'Quantity',
     total: 'Total',
     checkout: 'Checkout',
+    runningShirt:"Brended Shirt",
+    runningBag:"Brended Bag",
 
     // Marathon Info Page
     raceSchedule: 'Race Schedule',

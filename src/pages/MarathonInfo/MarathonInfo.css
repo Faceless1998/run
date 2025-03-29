@@ -146,7 +146,6 @@
 }
 
 .course-highlights li::before {
-  content: "•";
   color: var(--primary-color);
   font-weight: bold;
 }

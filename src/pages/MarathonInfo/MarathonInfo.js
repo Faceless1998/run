@@ -15,6 +15,8 @@ import {
   FaParking,
   FaBus,
 } from "react-icons/fa";
+import { IoEnterSharp } from "react-icons/io5";
+
 import { GiPathDistance } from "react-icons/gi";
 import PageHeader from "../shared/PageHeader";
 import "./MarathonInfo.css";
@@ -56,6 +58,9 @@ const MarathonInfo = () => {
         t("boulvard2"),
         t("boulvard3"),
         t("boulvard4"),
+        t("boulvard5"),
+        t("boulvard6"),
+
       ],
     },
     schedule: [
@@ -73,9 +78,9 @@ const MarathonInfo = () => {
         description: "Custom-designed medal for all finishers",
       },
       {
-        icon: FaTshirt,
-        title: "Technical T-shirt",
-        description: "High-quality shirt",
+        icon: IoEnterSharp,
+        title: "Free entrance",
+        description: "Free entrance to the Botanical garden",
       },
       ,
       { icon: FaRoute, title: t("scenicroute"), description: "Beautiful nature" },
@@ -90,23 +95,32 @@ const MarathonInfo = () => {
     partners: [
         {
           image: IMG1,
+          title: 'Ninja Fight',
         },
         {
           image: IMG2,
+          title:'avaliani',
         },
         {
           image: IMG3,
-        },
-        {
-          image: IMG4,
+          title: 'Citrus',
         },
         {
           image: IMG5,
-        },
-        {
-          image: IMG6,
+          title:'botanical Garden'
         },
     ],
+    mediaPartners: [
+      {
+        image: IMG4,
+        title:'My Batumi'
+
+      },
+      {
+        image: IMG6,
+        title:' Yes Batumi'
+      },
+  ],
     registration: {
       deadline: "28.05.2025",
       price: {
@@ -184,14 +198,14 @@ const MarathonInfo = () => {
                 <div className="course-item">
                   <FaMapMarkerAlt className="course-icon" />
                   <div>
-                    <h3>Course Profile</h3>
+                    <h3>Race Profile</h3>
                     <p>Elevation: {marathonInfo.course.elevation}</p>
                     <p>Surface: {marathonInfo.course.surface}</p>
                   </div>
                 </div>
               </div>
               <div className="course-highlights">
-                <h3>Course Highlights</h3>
+                <h3>RACE CATEGORIES & AGE GROUPS </h3>
                 <ul>
                   {marathonInfo.course.highlights.map((highlight, index) => (
                     <li key={index}>{highlight}</li>
@@ -270,6 +284,16 @@ const MarathonInfo = () => {
             <h2>Partners: </h2>
             <div className="amenities-grid-image">
               {marathonInfo.partners.map((partner, index) => (
+                <div key={index} className="amenity-card-image">
+                  <img src={partner.image} />
+                </div>
+              ))}
+            </div>
+          </section>
+          <section className="marathon-section">
+            <h2>Media Partners: </h2>
+            <div className="amenities-grid-image">
+              {marathonInfo.mediaPartners.map((partner, index) => (
                 <div key={index} className="amenity-card-image">
                   <img src={partner.image} />
                 </div>

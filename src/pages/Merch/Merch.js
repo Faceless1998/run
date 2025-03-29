@@ -19,46 +19,25 @@ const Merch = () => {
       id: 1,
       name: t("runningShirt"),
       description: t("runningShirtDesc"),
-      price: 29.99,
+      price: 24.99,
       image: '/images/merch/running-shorts.jpg',
       category: "clothing",
       sizes: ["S", "M", "L", "XL"],
-      colors: ["Black", "Blue", "White"],
+      colors: ["Green"],
       inStock: true,
     },
     {
       id: 2,
-      name: t("runningShorts"),
+      name: t("runningBag"),
       description: t("runningShortsDesc"),
       price: 24.99,
-      image: "/images/merch/running-shorts.jpg",
-      category: "clothing",
-      sizes: ["S", "M", "L"],
-      colors: ["Black", "Navy"],
-      inStock: true,
-    },
-    {
-      id: 3,
-      name: t("runningCap"),
-      description: t("runningCapDesc"),
-      price: 19.99,
-      image: "/images/merch/running-cap.jpg",
-      category: "accessories",
-      sizes: ["One Size"],
-      colors: ["Black", "White"],
-      inStock: false,
-    },
-    {
-      id: 4,
-      name: t("runningSocks"),
-      description: t("runningSocksDesc"),
-      price: 14.99,
-      image: "/images/merch/running-shorts.jpg",
+      image: "/images/merch/running-bag.jpg",
       category: "accessories",
       sizes: ["S", "M", "L"],
-      colors: ["Black", "White", "Gray"],
+      colors: ["Green"],
       inStock: true,
     },
+    
   ];
 
   const filteredProducts = products.filter((product) => {
@@ -114,7 +93,6 @@ const Merch = () => {
               </div>
               <div className="product-content">
                 <h3>{product.name}</h3>
-                <p className="product-description">{product.description}</p>
                 <div className="product-details">
                   <div className="detail-group">
                     <label>{t("sizes")}</label>
@@ -137,12 +115,12 @@ const Merch = () => {
                     </div>
                   </div>
                 </div>
-                <div className="product-footer">
+                {/* <div className="product-footer">
                   <div className="product-price">
                     <span className="price-label">{t("price")}</span>
                     <span className="price-value">${product.price}</span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

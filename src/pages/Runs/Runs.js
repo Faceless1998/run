@@ -218,10 +218,7 @@ const Runs = () => {
                     <FaMoneyBillWave className="price-icon" />
                     <span>{race.price}</span>
                   </div>
-                  <div className="race-prize">
-                    <FaTrophy className="prize-icon" />
-                    <span>{race.prize}</span>
-                  </div>
+                  
                   <Link to={`/marathon-info/${race.id}`} className="see-more-button">
                     {t('seeMore')}
                     <FaArrowRight className="arrow-icon" />
