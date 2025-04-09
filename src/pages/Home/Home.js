@@ -10,7 +10,7 @@ const Home = () => {
       <section className="hero-section">
         <h1>{t('welcomeTitle')}</h1>
         <p>{t('welcomeSubtitle')}</p>
-        <a href="/runs" className="button button-primary">{t('viewAllRaces')}</a>
+        <a href="https://tkt.ge/show/21677" target='_blank' className="button button-primary">{t('viewAllRaces')}</a>
       </section>
       
       <section className="features-section">
