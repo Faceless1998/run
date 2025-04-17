@@ -1,6 +1,6 @@
 .merch-container {
   padding: 2rem 0;
-  background-color: #307D7E;
+  background-color: var(--main-bg);
 }
 
 .merch-container .container {

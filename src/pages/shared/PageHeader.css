@@ -1,5 +1,5 @@
 .page-header {
-  background: #307D7E;
+  background: var(--main-bg);
   padding: 3rem 0;
   margin-bottom: 2rem;
 }

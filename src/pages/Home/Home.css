@@ -23,7 +23,7 @@
 
 .features-section {
   padding: 4rem 0;
-  background-color:#307D7E;
+  background-color:var(--main-bg);
 }
 .features-section h2{
   color: white;
@@ -77,6 +77,6 @@
 }
 
 body{
-  background-color: #307D7E!important;
+  background-color: var(--main-bg)!important;
 }
 

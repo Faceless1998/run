@@ -1,6 +1,6 @@
 .runs-container {
   min-height: calc(100vh - 64px);
-  background-color: #307D7E;
+  background-color: var(--main-bg);
   padding-bottom: 2rem;
 }
 
