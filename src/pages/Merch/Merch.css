@@ -1,11 +1,10 @@
 .merch-container {
   padding: 2rem 0;
-  background-color: #f8f9fa;
+  background-color: #307D7E;
 }
 
 .merch-container .container {
   max-width: 1200px;
-  margin: 0 auto;
   padding: 2rem 1rem;
 }
 

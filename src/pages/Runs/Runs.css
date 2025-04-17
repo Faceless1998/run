@@ -1,6 +1,6 @@
 .runs-container {
   min-height: calc(100vh - 64px);
-  background-color: var(--background-color);
+  background-color: #307D7E;
   padding-bottom: 2rem;
 }
 
@@ -112,6 +112,10 @@
   position: relative;
   height: 200px;
   overflow: hidden;
+}
+
+.race-image-container img{
+  object-position: top;
 }
 
 .race-image {
